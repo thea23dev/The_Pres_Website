@@ -239,3 +239,68 @@ footer a:hover{
 color:rgb(173, 173, 173);
 text-decoration:underline;
 }
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px){
+
+/* ---------- SONG SECTION FIX ---------- */
+
+.song{
+height:auto;
+padding:60px 20px;
+}
+
+.song-container{
+flex-direction:column;
+text-align:center;
+gap:30px;
+}
+
+.song-image img{
+width:250px;
+height:250px;
+}
+
+.song-text h2{
+font-size:26px;
+}
+
+.song-text{
+max-width:100%;
+}
+
+/* ---------- ALBUM SECTION FIX ---------- */
+
+.cards{
+flex-direction:column;
+}
+
+.card{
+width:100%;
+height:50vh;
+}
+
+/* rotate text */
+.album-text{
+transform:rotate(-90deg);
+font-size:28px;
+letter-spacing:3px;
+}
+
+/* center rotated text better */
+.album-text h2{
+white-space:nowrap;
+}
+
+/* ---------- HERO TEXT SMALLER ---------- */
+
+.hero-text h2{
+font-size:32px;
+}
+
+/* ---------- NAV FIX ---------- */
+
+nav ul{
+display:none; /* hides menu on phone (optional clean look) */
+}
+
+}
